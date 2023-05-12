@@ -1,0 +1,76 @@
+* {
+    font-family: Barlow, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #EAEAE0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Barlow Condensed";
+    color: rgb(30, 30, 30);
+    text-transform: uppercase;
+}
+
+nav a.color-link:hover {
+    border-top: 3px solid coral;
+}
+
+nav a.typography-link:hover {
+    border-top: 3px solid #fce770;
+}
+
+nav a.buttons-link:hover {
+    border-top: 3px solid #33afe0;
+}
+
+nav a.cards-link:hover {
+    border-top: 3px solid #1DC690;
+}
+   
+h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+}
+
+h1.title {
+    padding: 120px 60px;
+    max-width: 400px;
+}
+
+.neon-green {
+  color: #1DC690;
+}
+
+.blue-grotto {
+    color: #278AB0;
+}
+
+.coral {
+    color: coral;
+}
+
+.gold {
+    color: #fce770;
+}
+
+.ivory {
+    color: #EAEAE0;
+}
