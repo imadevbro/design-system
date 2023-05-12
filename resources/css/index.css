@@ -5,6 +5,14 @@
     color: white;
 }
 
+#typography * {
+    padding: 10px;
+}
+
+#color p {
+    padding-bottom: 20px;
+}
+
 body {
     background-color: black;
 }
@@ -27,7 +35,7 @@ nav ul {
     padding: 20px;
 }
 
-nav a {
+a {
     text-decoration: none;
     font-family: "Cabin Condensed";
     font-weight: bold;
@@ -45,13 +53,14 @@ nav a:active {
    
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 80px;
 }
 
 h2 {
     color: #0D879D;
     font-size: 60px;
+    font-weight: 600;
 }
 
 h3 {
@@ -64,9 +73,13 @@ h4 {
     font-size: 30px;
 }
 
+h5 {
+    font-size: 20px;
+}
+
 p {
-    font-family: Cabin;
-    padding: 20px 0px;
+    font-family: "Cabin";
+    font-size: 20px;
 }
 
 .container {
@@ -80,7 +93,6 @@ main {
 
 section {
     padding: 60px 0px;
-    border-bottom: 3px dotted #41BDA7;
 }
 
 .color-container {
@@ -109,4 +121,50 @@ section {
 
 .section-title {
     padding: 20px 0px;
+}
+
+.button-list {
+    padding: 40px;
+}
+
+.button-list li {
+    display: inline;
+    padding: 40px 20px;
+}
+
+.btn {
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #0D879D;
+}
+
+.p-hover {
+    background-color: white;
+    color: #0D879D;
+    border: 1px solid #0D879D;
+}
+
+.p-active {
+    background-color: transparent;
+    color: #0D879D;
+    border: 1px solid #0D879D;
+}
+
+.secondary {
+    background-color: #41BDA7;
+}
+
+.s-hover {
+    background-color: white;
+    color: #41BDA7;
+    border: 1px solid #41BDA7;
+}
+
+.s-active {
+    background-color: transparent;
+    color: #41BDA7;
+    border: 1px solid #41BDA7;
 }
