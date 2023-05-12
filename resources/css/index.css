@@ -58,7 +58,6 @@ h3 {
     color: white;
     font-size: 40px;
     font-weight: bold;
-    padding-bottom: 20px;
 }
 
 h4 {
@@ -79,6 +78,11 @@ main {
     padding: 80px;
 }
 
+section {
+    padding: 60px 0px;
+    border-bottom: 3px dotted #41BDA7;
+}
+
 .color-container {
     padding: 30px;
 }
@@ -92,7 +96,7 @@ main {
 }
 
 .black {
-    background-color: black;
+    background-color: #000000;
 }
 
 .white {
@@ -101,4 +105,8 @@ main {
 
 .white h4, .white h5 {
     color: black;
+}
+
+.section-title {
+    padding: 20px 0px;
 }
