@@ -5,7 +5,7 @@
     color: white;
 }
 
-#typography * {
+#typography {
     padding: 10px;
 }
 
@@ -167,4 +167,12 @@ section {
     background-color: transparent;
     color: #41BDA7;
     border: 1px solid #41BDA7;
+}
+
+.banner {
+    height: 0.4rem;
+    width: 4rem;
+    background-color: #41BDA7;
+    display: flex;
+    padding: 0px;
 }
