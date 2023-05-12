@@ -1,76 +1,104 @@
 * {
-    font-family: Barlow, sans-serif;
+    font-family: Montserrat, sans-serif;
     margin: 0px;
     padding: 0px;
+    color: white;
 }
 
 body {
-    background-color: #EAEAE0;
+    background-color: black;
 }
 
 nav {
-    position: fixed;
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    position: fixed;
     z-index: 1;
+    background-color: black;
 }
 
 nav li {
     display: inline;
+    padding: 40px 20px;
+}
+
+nav ul {
     padding: 20px;
 }
 
 nav a {
     text-decoration: none;
-    font-family: "Barlow Condensed";
-    color: rgb(30, 30, 30);
+    font-family: "Cabin Condensed";
+    font-weight: bold;
+    color: white;
     text-transform: uppercase;
 }
 
-nav a.color-link:hover {
-    border-top: 3px solid coral;
+nav a:hover {
+    border-top: 3px solid #41BDA7;
 }
 
-nav a.typography-link:hover {
-    border-top: 3px solid #fce770;
-}
-
-nav a.buttons-link:hover {
-    border-top: 3px solid #33afe0;
-}
-
-nav a.cards-link:hover {
-    border-top: 3px solid #1DC690;
+nav a:active {
+    color: #41BDA7;
 }
    
 h1 {
-  font-family: "Barlow", sans-serif;
-  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   font-size: 80px;
 }
 
-h1.title {
-    padding: 120px 60px;
-    max-width: 400px;
+h2 {
+    color: #0D879D;
+    font-size: 60px;
 }
 
-.neon-green {
-  color: #1DC690;
+h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
-.blue-grotto {
-    color: #278AB0;
+h4 {
+    font-size: 30px;
 }
 
-.coral {
-    color: coral;
+p {
+    font-family: Cabin;
+    padding: 20px 0px;
 }
 
-.gold {
-    color: #fce770;
+.container {
+    padding-top: 100px;
+    text-align: center;
 }
 
-.ivory {
-    color: #EAEAE0;
+main {
+    padding: 80px;
+}
+
+.color-container {
+    padding: 30px;
+}
+
+.blue {
+    background-color: #0D879D;
+}
+
+.green {
+    background-color: #41BDA7;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.white h4, .white h5 {
+    color: black;
 }
